@@ -5,7 +5,7 @@ from PIL import Image
 import gdown
 
 # Google Drive 파일 ID
-file_id = '1NKIhMhUeRC0vPptHwT4it-LMYhamVDyi'
+file_id = '1q4nGymjwRWJLl2HePuchabuudk3nq0AZ'
 
 # Google Drive에서 파일 다운로드 함수
 @st.cache(allow_output_mutation=True)
@@ -77,53 +77,54 @@ st.markdown("""
 content_data = {
     labels[0]: {
         'images': [
-            "https://via.placeholder.com/300?text=Label1_Image1",
-            "https://via.placeholder.com/300?text=Label1_Image2",
-            "https://via.placeholder.com/300?text=Label1_Image3"
+            "https://i.ibb.co/WP9dbsR/1.jpg",
+            "https://i.ibb.co/tcGRqPS/2.jpg",
+            "https://i.ibb.co/Rz5d1W9/3.jpg"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+            "https://youtu.be/pZNnMMPTwm0?feature=shared",
+            "https://youtu.be/0-xyHOTnhdU?feature=shared",
+            "https://youtu.be/pFvnDf0-v0Y?feature=shared"
         ],
         'texts': [
-            "Label 1 관련 첫 번째 텍스트 내용입니다.",
-            "Label 1 관련 두 번째 텍스트 내용입니다.",
-            "Label 1 관련 세 번째 텍스트 내용입니다."
+            "장호해수욕장-강원 삼척시: 스노클링 명소
+",
+            "을왕리해수욕장-인천 중구: 도심에서 가장 가깝고 아름다운 해수욕장",
+            "장등해변-전남 여수시: 느긋하고 조용하게 피서를 즐길 수 있는 해수욕장"
         ]
     },
     labels[1]: {
         'images': [
             "https://i.ibb.co/S5dd1Dz/ef27b324-ef1a-4d68-957f-0012decd642d.jpg",
-            "https://via.placeholder.com/300?text=Label2_Image2",
-            "https://via.placeholder.com/300?text=Label2_Image3"
+            "https://i.ibb.co/VCB33Xt/2.jpg",
+            "https://i.ibb.co/DLqyskt/3.jpg"
         ],
         'videos': [
             "https://youtu.be/vhWjG_VUIZE?feature=shared",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+            "https://youtu.be/vqVsbj4u-ZM?feature=shared",
+            "https://youtu.be/RRyw3AnKmuY?feature=shared"
         ],
         'texts': [
-            "Label 2 정선 민둥산: 가을 억새 산행지이자 철도 산행지의 대표적인 산이다. ",
-            "Label 2 관련 두 번째 텍스트 내용입니다.",
-            "Label 2 관련 세 번째 텍스트 내용입니다."
+            "민둥산-강원 정선: 가을철 대표 억새 산행지 ",
+            "달마산-전남 해남군: 한반도의 끝자락, 백두대간을 마무리하는 산",
+            "문수산-경기 김포시: 사계절 경치가 아름다워 김포의 금강산이라 불린다"
         ]
     },
     labels[2]: {
         'images': [
-            "https://via.placeholder.com/300?text=Label3_Image1",
-            "https://via.placeholder.com/300?text=Label3_Image2",
-            "https://via.placeholder.com/300?text=Label3_Image3"
+            "https://i.ibb.co/VBP3zMs/1.jpg",
+            "https://i.ibb.co/LR130hR/2.jpg",
+            "https://i.ibb.co/pj9pCQB/3.jpg"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+            "https://youtu.be/LaOkllGcZ-c?feature=shared",
+            "https://youtu.be/D-UJ0JahnSE?feature=shared",
+            "https://youtu.be/pOklPsf5qVo?feature=shared"
         ],
         'texts': [
-            "Label 3 관련 첫 번째 텍스트 내용입니다.",
-            "Label 3 관련 두 번째 텍스트 내용입니다.",
-            "Label 3 관련 세 번째 텍스트 내용입니다."
+            "완도 청해진 유적-전남 완도군: 동북아 해상무역왕 장보고의 본거지",
+            "강릉 경포대-강원 강릉시: 다섯 개의 달이 뜨는 낭만적인 달맞이 명소",
+            "병산서원-경북 안동: 역사적 가치가 있는 고려 중기 교육기관"
         ]
     }
 }
